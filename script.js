@@ -1,6 +1,6 @@
 console.log("WelCome to Spotify Music")
 let songIndex =0;
-let audioElement = new Audio("songs/1.mp3");
+let audioElement = new Audio("1.mp3");
 let myProgressBar = document.getElementById('myProgressBar');
 let masterPlay = document.getElementById('masterPlay');
 let giff = document.getElementById('giff');
@@ -8,7 +8,7 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songItemPlay = Array.from(document.getElementsByClassName("songItemPlay"))
 let masterSongName=document.getElementById('masterSongName')
 let songs=[
-    {songName:" No mercy",filePath:"songs/1.mp3" ,coverPath:"covers/1.jpg "},
+    {songName:" No mercy",filePath:"1.mp3" ,coverPath:"covers/1.jpg "},
     {songName:"8 Parche",filePath:"songs/2.mp3 ",coverPath:"covers/2.jpg "},
     {songName:"ASofia",filePath:"songs/3.mp3 ",coverPath:"covers/3.jpg "},
     {songName:"Instrumental",filePath:"songs/4.mp3 ",coverPath:"covers/4.jpg "},
